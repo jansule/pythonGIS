@@ -9,8 +9,6 @@ Final Assignment for Python in GIS
 
  ## Installing
 
- **Note:** This script was created to be used in a python environment such as `IDLE`. It is not intended to run this script within QGIS. Therefore, `gdal` needs to be installed manually.
-
  1. Download or clone this repository and if necessary unzip all files.
  2. Download Landcover image (this script has been tested with and optimized for [g100_clc12_V18_5.tif](http://land.copernicus.eu/pan-european/corine-land-cover/clc-2012/view))
  3. Download DEM (this script has been tested with and optimized for `dgm1_5meter.img`. This file was provided within the course)

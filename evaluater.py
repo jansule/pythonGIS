@@ -110,7 +110,7 @@ def evalDem(in_path_shp, out_path_shp, input_ref, target_ref_dem, in_path_dem):
     shp = driver.Open(out_path_shp, 1)
     layer = shp.GetLayer(0)
     print 'evalDem ref is {}'.format(layer.GetSpatialRef())
-    dem_field_name = ogr.FieldDefn('DEM_elev', ogr.OFTString)
+    dem_field_name = ogr.FieldDefn('DEM_elev', ogr.OFTReal)
     layer.CreateField(dem_field_name)
     # add values to features
     for feat in layer:
@@ -140,7 +140,7 @@ def evalLand(in_path_shp, out_path_shp, input_ref, target_ref_dem, in_path_dem):
     shp = driver.Open(out_path_shp, 1)
     layer = shp.GetLayer(0)
     print 'evalDem ref is {}'.format(layer.GetSpatialRef())
-    dem_field_name = ogr.FieldDefn('Land_cov', ogr.OFTString)
+    dem_field_name = ogr.FieldDefn('Land_cov', ogr.OFTInteger)
     layer.CreateField(dem_field_name)
     # add values to features
     for feat in layer:
