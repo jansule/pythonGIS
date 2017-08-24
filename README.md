@@ -3,10 +3,13 @@ Final Assignment for Python in GIS
 
 ## Prerequisites
 
- - QGIS Desktop 2.8 or higher
+ - gdal version 1.11.3 (install: `pip install gdal`)
  - tested on Python 2.7.12
 
+
  ## Installing
+
+ **Note:** This script was created to be used in a python environment such as `IDLE`. It is not intended to run this script within QGIS. Therefore, `gdal` needs to be installed manually.
 
  1. Download or clone this repository and if necessary unzip all files.
  2. Download Landcover image (this script has been tested with and optimized for [g100_clc12_V18_5.tif](http://land.copernicus.eu/pan-european/corine-land-cover/clc-2012/view))
@@ -18,11 +21,9 @@ Final Assignment for Python in GIS
 
  1. Open evaluater.py in a text editor
  2. Add paths to input and output files in lines 23-37 (description of allowed types and variable definitions is given within evaluater.py)
- 3. Open QGIS
- 4. Open `Python Console` in QGIS
- 5. Click on `Show Editor` in `Python Console`
- 6. Click on `Open File` in `Editor` and select `evaluater.py`
- 7. Click on `Run Script` in `Editor`
+ 3. Open IDLE
+ 4. Open `evaluater.py`
+ 7. Click on `Run > Run Module`
 
  ## Results
 
