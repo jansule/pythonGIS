@@ -32,7 +32,7 @@ Final Assignment for Python in GIS
 1. reprojected shapefile with CRS of DEM and added field `DEM_elev`
 2. reprojected shapefile with CRS of Landcover file and added field `Land_cov`
 3. png file containing 
-    1. bar chart of elevation differences between GPS and DEM elevation, classified in landcover types
+    1. bar chart of mean elevation differences between GPS and DEM elevation, classified in landcover types
     2. time series of elevation differences between GPS and DEM elevation, classified in landcover types
 
 Example .png outputs have been added to this repository 
